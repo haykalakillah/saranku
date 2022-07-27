@@ -1,0 +1,73 @@
+:root {
+  --gradient1: radial-gradient(circle farthest-corner at 10% 20%, rgba(100, 130, 159, 1) 0%, rgba(103, 56, 96, 1) 90%);
+}
+
+.navbar {
+}
+
+.jumbotron {
+  padding-top: 6rem;
+  background-color: #454241;
+  background-image: var(--gradient1);
+  background-size: 200%;
+  animation: gradient-animation 25s infinite alternate;
+  color: rgba(61, 245, 167, 1);
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: left;
+  }
+
+  100% {
+    background-position: right;
+  }
+}
+
+#projects {
+  background-color: rgba(100, 130, 159, 1);
+}
+
+section {
+  padding-top: 5rem;
+}
+
+.gallery-img {
+  width: 100%;
+}
+
+#gallery .row > * {
+  padding: 0;
+}
+
+#gallery {
+  background-color: rgba(100, 130, 159, 1);
+}
+
+.second {
+  font-size: 1.25rem;
+  font-weight: 300;
+}
+
+.display-4 {
+  color: rgba(61, 245, 167, 1);
+}
+
+#About {
+  background-color: rgba(100, 130, 159, 1);
+}
+
+a.option {
+  background: #3f72af;
+  border-radius: 20px;
+  margin-left: 10px;
+  padding-left: 30px;
+  color: #ffffff;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+a.option:hover {
+  background: #fc5185;
+  text-decoration: none;
+}
